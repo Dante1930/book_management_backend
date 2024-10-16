@@ -24,7 +24,7 @@ This project is a Book Management System built using **Node.js** and **Express.j
 
 Make sure you have the following installed on your system:
 
-- **Node.js** (v14 or higher)
+- **Node.js** (v20 or higher)
 - **npm** or **yarn**
 - **MongoDB** or **PostgreSQL** (depending on your choice of database)
 - **Git** (to clone the repository)
