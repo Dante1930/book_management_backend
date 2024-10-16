@@ -1,6 +1,6 @@
 # Book Management System API
 
-This project is a Book Management System built using **Node.js** and **Express.js** with **MongoDB** or **PostgreSQL** for data storage. The API supports various operations such as creating, updating, deleting, and fetching books. It also includes features for pagination, filtering, sorting, and book cover image upload using **Multer**.
+This project is a Book Management System built using **Node.js** and **Express.js** with **MongoDB** for data storage. The API supports various operations such as creating, updating, deleting, and fetching books. It also includes features for pagination, filtering, sorting, and book cover image upload using **Multer**.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is a Book Management System built using **Node.js** and **Express.j
 ## Technologies Used
 
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB / PostgreSQL
+- **Database**: MongoDB
 - **File Upload**: Multer
 - **Middleware**: Custom middleware for validation, error handling, and authentication
 - **Authentication**: JWT-based authentication
@@ -25,8 +25,8 @@ This project is a Book Management System built using **Node.js** and **Express.j
 Make sure you have the following installed on your system:
 
 - **Node.js** (v20 or higher)
-- **npm** or **yarn**
-- **MongoDB** or **PostgreSQL** (depending on your choice of database)
+- **npm** 
+- **MongoDB**
 - **Git** (to clone the repository)
 
 ## Getting Started
