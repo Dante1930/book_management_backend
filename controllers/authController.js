@@ -71,7 +71,7 @@ exports.loginUser = async (req, res) => {
       const token = generateToken(user);
   
       // Return token
-      res.json({ token });
+      res.json({ token,user });
     } catch (error) {
       console.error(error.message);
       res.status(500).send('Server error');
@@ -82,7 +82,7 @@ exports.loginUser = async (req, res) => {
 exports.getUserProfile = async (req, res) => {
   try {
     // Fetch user data excluding password
-    const user = await User.findById(req.user.id).select('-password');
+    const user = await User.findById(req.userId).select('-password');
     res.json(user);
   } catch (error) {
     console.error(error.message);
