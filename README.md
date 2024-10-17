@@ -42,7 +42,7 @@ npm install
 
 POST /api/books
 Content-Type: multipart/form-data
-Authorization: Bearer <your_token>
+Authorization: <your_token>
 
 Form Data:
 - title: "The Great Gatsby"
